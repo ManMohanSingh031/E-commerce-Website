@@ -1,0 +1,39 @@
+.login-button {
+    position: relative;
+    background: linear-gradient(54deg, #a14dc4, transparent);
+    position: relative;
+    background-color: #251b80;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.login-button:after {
+    content: "";
+    background: #edeef5;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.login-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}

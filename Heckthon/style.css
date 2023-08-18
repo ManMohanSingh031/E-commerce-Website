@@ -1,0 +1,71 @@
+/* PRODUCT CARD DESIGN */
+
+.product-card {
+    border-radius: 25px;
+    background: rgb(254, 253, 253);
+}
+
+/* "FAS" DESIGN */
+.back-text {
+    display: inline-block;
+    font-size: 125px;
+    font-weight: 900;
+    margin-left: -7px;
+    margin-top: -12px;
+    opacity: 0.1;
+}
+
+/* product design */
+
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0e9e9;
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+/* PRODUCT NAME USE FOR RATING,STAR,PRODUCT NAME */
+.product-name {
+    margin: 10px;
+}
+
+/* USE FOR PRICE */
+.product-pricec1 {
+    margin: 10px;
+    color: red;
+}
+
+/* "ADD TO CARD" BUTTON DESIGN */
+.addtocart {
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 20px;
+    background: #f7c20a;
+    border: 1px solid #f7c20a;
+}
+
+/*  product-container  FOR ALL ELEMENT STORING*/
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product-container-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.product-container-heading {
+    font-size: xx-large;
+    color: red;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css" />
+  </head>
+  <body>
+    <h3>Product Registration</h3>
+
+    <div class="sellerform">
+      <!-- <form action="/action_page.php"> -->
+        <label for="fname">User Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+        
+        <label for="fname">Email</label>
+        <input
+          type="email"
+          id="Email"
+          name="Email"
+          placeholder="Your Email.."
+        />
+
+        <label for="Contact">Contact</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          placeholder="Mobile Number.."
+        />
+
+        <label for="Address">Address</label>
+        <input
+          type="text"
+          id="Address"
+          name="Address"
+          placeholder="Your Address.."
+        />
+
+        <label for="Caregory">Category</label>
+        <select id="Category" name="Category">
+          <option value="Books">Books</option>
+          <option value="Electronic">Electronic</option>
+          <option value="Stationery shop ">Stationery shop</option>
+        </select>
+
+        <label for="item">Items Type</label>
+        <input type="text" id="Items" name="Items" placeholder="Items name.." />
+
+        <label for="Quantity">Quantity</label>
+        <input
+          type="text"
+          id="Quantity"
+          name="Quantity"
+          placeholder="Quantity.."
+        />
+
+        <label for="price">Price &#8377;</label>
+        <input type="text" id="price" name="price" placeholder="&#8377;.." />
+        <label for="Phone Pay">Phone Pay</label>
+        <input
+          type="text"
+          id="Phone Pay"
+          name="Phone Pay"
+          placeholder="G pay.."
+        />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
